@@ -1,0 +1,36 @@
+{
+  "name": "hubot-websocket",
+  "version": "0.1.0",
+  "author": "Brandon Keepers <brandon@opensoul.org>",
+  "keywords": [
+    "hubot",
+    "adapter",
+    "websocket"
+  ],
+  "description": "A websocket adapter for Hubot",
+  "licenses": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkeepers/hubot-websocket.git"
+  },
+  "dependencies": {
+    "parent-require": "^1.0.0",
+    "uuid": "^3.0.1",
+    "ws": "~0.7.2"
+  },
+  "peerDependencies": {
+    "hubot": ">=2.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/bkeepers/hubot-websocket/issues"
+  },
+  "homepage": "https://github.com/bkeepers/hubot-websocket#readme",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}

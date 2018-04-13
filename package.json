@@ -1,0 +1,14 @@
+{
+  "name": "roowix-chat",
+  "version": "0.0.1",
+  "description": "Test task for Roowix",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "react-socket-io": "*",
+    "socket.io": "^2.1.0",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "start": "(set +e && killall node && set -e) && node ./server.js & HUBOT_WEBSOCKET_PORT=8081 roowixhubot/bin/hubot -a websocket"
+  }
+}
